@@ -1,1 +1,13 @@
-<p>cronometro works!</p>
+<div class="wrapButton">
+    <h1>Start editing to see some magic happen :)</h1>
+    <button (click)="iniciarCronometro()">Iniciar cronômetro</button>
+    <div class="cronometro">
+        <span class="horas"> {{ horas }} </span>
+        <span>:</span>
+        <span class="minutos"> {{ minutos }} </span>
+        <span>:</span>
+        <span class="segundos"> {{ segundos }} </span>
+        <span>:</span>
+        <span class="centesimas"> {{ centesimas }} </span>
+    </div>
+</div>
